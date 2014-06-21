@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.obrhoff.launchbar.site</string>
+	<string>com.obrhoff.launchbar.vlc</string>
 	<key>CFBundleName</key>
-	<string>Site</string>
+	<string>Open YouTube in VLC</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFile</key>
-	<string>com.apple.Safari</string>
+	<string>org.videolan.vlc</string>
 	<key>LBDebugLogEnabled</key>
 	<true/>
 	<key>LBRequiredApplication</key>
-	<string>com.apple.Safari</string>
+	<string>org.videolan.vlc</string>
 	<key>LBAssociatedApplication</key>
-	<string>com.apple.Safari</string>
+	<string>org.videolan.vlc</string>
 	<key>LBScripts</key>
 	<dict>
 		<key>LBDefaultScript</key>
@@ -23,17 +23,17 @@
 			<key>LBScriptName</key>
 			<string>default.scpt</string>
 			<key>LBRunInBackground</key>
-			<false/>
+			<true/>
 			<key>LBRequiresArgument</key>
-			<true/>
+			<false/>
 			<key>LBReturnsResult</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBSummary</key>
-		<string>Search Current Domain on Google</string>
+		<string>Open YouTube Video in VLC</string>
 		<key>LBAuthor</key>
 		<string>Dennis Oberhoff</string>
 		<key>LBEmail</key>
@@ -43,7 +43,7 @@
 		<key>LBTwitter</key>
 		<string>@docterd</string>
 		<key>LBResult</key>
-		<string>Searched Domain</string>
+		<string>VLC Video</string>
 	</dict>
 </dict>
 </plist>
