@@ -2,7 +2,7 @@ import json
 import sys
 import urllib
 
-base_url = 'http://search.cocoapods.org/api/v1/pods.flat.ids.json?%s'
+base_url = 'http://search.cocoapods.org/api/v1/pods.flat.hash.json?%s'
 arguments = ' '.join(sys.argv[1:])
 scriptOutput = []
 
@@ -10,9 +10,9 @@ def search(search_string):
     url = base_url % urllib.urlencode({'query': search_string, 'amount': 10})
     string_results = urllib.urlopen(url).read()
     json_results = json.loads(string_results)
-
+   
     for item in json_results:
-        scriptOutput.append({'title' : item, 'icon' : 'Cocoapods'})
+        scriptOutput.append({'title' : item["id"], 'subtitle': item["summary"], 'icon' : 'Cocoapods'})
 
 search(arguments)
 
