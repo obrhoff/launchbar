@@ -12,7 +12,7 @@ def search(search_string):
     json_results = json.loads(string_results)
 
     for item in json_results:
-        scriptOutput.append({'title' : item, 'icon' : 'DuckDuckGo'})
+        scriptOutput.append({'title' : item, 'icon' : 'Cocoapods'})
 
 search(arguments)
 
