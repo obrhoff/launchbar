@@ -16,6 +16,8 @@
 	<dict>
 		<key>LBDefaultScript</key>
 		<dict>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
 			<key>LBScriptName</key>
 			<string>default.py</string>
 			<key>LBRunInBackground</key>
@@ -28,13 +30,6 @@
 			</array>
 			<key>LBReturnsResult</key>
 			<false/>
-		</dict>
-		<key>LBSuggestionsScript</key>
-		<dict>
-			<key>LBScriptName</key>
-			<string>suggestions.py</string>
-			<key>LBRunInBackground</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>LBDescription</key>
