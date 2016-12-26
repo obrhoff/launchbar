@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.obrhoff.launchbar.mas</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleName</key>
+	<string>App Store</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBSuggestionsScriptRunInBackground</key>
+	<true/>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>lbmas</string>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBBackgroundKillEnabled</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action performs a Spotfy search with the specified text. While typing, you get live feedback with suggestions according to the entered text.</string>
+		<key>LBAuthor</key>
+		<string>Dennis Oberhoff</string>
+		<key>LBTwitter</key>
+		<string>@docterd</string>
+	</dict>
+</dict>
+</plist>

@@ -9,15 +9,13 @@
 import Foundation
 
 public struct Response {
-    
-    let title : String
-    let subtitle : String
-    let url : String
-    let icon : String
-    
-    public var dict : [String : String] {
-        get {
-            return ["title": self.title, "subtitle": self.subtitle, "url": self.url, "icon": self.icon]
-        }
+
+    let title: String
+    let subtitle: String
+    let url: String
+    let icon: String
+
+    public var dict: [String: String] {
+        return ["title": self.title, "subtitle": self.subtitle, "url": self.url, "icon": self.icon]
     }
 }

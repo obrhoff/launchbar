@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E15884DB1E11221A00F80FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884DA1E11221A00F80FEE /* main.swift */; };
-		E15884E81E11223700F80FEE /* lbshared.h in Headers */ = {isa = PBXBuildFile; fileRef = E15884E61E11223700F80FEE /* lbshared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E15884F01E1123EE00F80FEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
-		E15884F21E11246000F80FEE /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F11E11246000F80FEE /* Cocoapods.swift */; };
 		E15884F41E11246A00F80FEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
-		E15884F61E11272E00F80FEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
 		E15884F71E11272F00F80FEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
-		E17B685F1E11305C00F11DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17B685E1E11305C00F11DEE /* main.swift */; };
-		E17B68641E1130AF00F11DEE /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17B68631E1130AF00F11DEE /* Spotify.swift */; };
+		E15C4C5D1E11B555003A64FB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
+		E15C4C5E1E11B557003A64FB /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
+		E15C4C691E11B66A003A64FB /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */; };
+		E15C4C6A1E11B66A003A64FB /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C601E11B62E003A64FB /* Github.swift */; };
+		E15C4C6B1E11B66A003A64FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C611E11B62E003A64FB /* main.swift */; };
+		E15C4C6C1E11B66A003A64FB /* Mas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C621E11B62E003A64FB /* Mas.swift */; };
+		E15C4C6D1E11B66A003A64FB /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C631E11B62E003A64FB /* Spotify.swift */; };
+		E15C4C6E1E11B66B003A64FB /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */; };
+		E15C4C6F1E11B66B003A64FB /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C601E11B62E003A64FB /* Github.swift */; };
+		E15C4C701E11B66B003A64FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C611E11B62E003A64FB /* main.swift */; };
+		E15C4C711E11B66B003A64FB /* Mas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C621E11B62E003A64FB /* Mas.swift */; };
+		E15C4C721E11B66B003A64FB /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C631E11B62E003A64FB /* Spotify.swift */; };
+		E15C4C781E11B66B003A64FB /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */; };
+		E15C4C791E11B66B003A64FB /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C601E11B62E003A64FB /* Github.swift */; };
+		E15C4C7A1E11B66B003A64FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C611E11B62E003A64FB /* main.swift */; };
+		E15C4C7B1E11B66B003A64FB /* Mas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C621E11B62E003A64FB /* Mas.swift */; };
+		E15C4C7C1E11B66B003A64FB /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C631E11B62E003A64FB /* Spotify.swift */; };
+		E15C4C7D1E11B66C003A64FB /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */; };
+		E15C4C7E1E11B66C003A64FB /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C601E11B62E003A64FB /* Github.swift */; };
+		E15C4C7F1E11B66C003A64FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C611E11B62E003A64FB /* main.swift */; };
+		E15C4C801E11B66C003A64FB /* Mas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C621E11B62E003A64FB /* Mas.swift */; };
+		E15C4C811E11B66C003A64FB /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C4C631E11B62E003A64FB /* Spotify.swift */; };
 		E17B68651E1130B600F11DEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
 		E17B68661E1130B600F11DEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
+		E17B68851E114BB000F11DEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
+		E17B68861E114BB000F11DEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E15884D61E11221A00F80FEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E15C4C521E11B3E7003A64FB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -39,20 +65,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E17B687A1E114B1C00F11DEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E15884D81E11221A00F80FEE /* lbcocoapod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbcocoapod; sourceTree = BUILT_PRODUCTS_DIR; };
-		E15884DA1E11221A00F80FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		E15884E41E11223700F80FEE /* lbshared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lbshared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E15884E61E11223700F80FEE /* lbshared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lbshared.h; sourceTree = "<group>"; };
-		E15884E71E11223700F80FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
-		E15884F11E11246000F80FEE /* Cocoapods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocoapods.swift; sourceTree = "<group>"; };
 		E15884F51E11272E00F80FEE /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		E15C4C541E11B3E7003A64FB /* lbmas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbmas; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocoapods.swift; sourceTree = "<group>"; };
+		E15C4C601E11B62E003A64FB /* Github.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		E15C4C611E11B62E003A64FB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E15C4C621E11B62E003A64FB /* Mas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mas.swift; sourceTree = "<group>"; };
+		E15C4C631E11B62E003A64FB /* Spotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
 		E17B685C1E11305C00F11DEE /* lbspotify */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbspotify; sourceTree = BUILT_PRODUCTS_DIR; };
-		E17B685E1E11305C00F11DEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		E17B68631E1130AF00F11DEE /* Spotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+		E17B687C1E114B1C00F11DEE /* lbgithub */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbgithub; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +98,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E15884E01E11223700F80FEE /* Frameworks */ = {
+		E15C4C511E11B3E7003A64FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,15 +112,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E17B68791E114B1C00F11DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E15884C11E1121E900F80FEE = {
 			isa = PBXGroup;
 			children = (
-				E15884D91E11221A00F80FEE /* lbcocoapod */,
-				E17B685D1E11305C00F11DEE /* lbspotify */,
-				E15884E51E11223700F80FEE /* lbshared */,
+				E15884E51E11223700F80FEE /* Launchbar */,
 				E15884CB1E1121E900F80FEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,53 +134,29 @@
 			isa = PBXGroup;
 			children = (
 				E15884D81E11221A00F80FEE /* lbcocoapod */,
-				E15884E41E11223700F80FEE /* lbshared.framework */,
 				E17B685C1E11305C00F11DEE /* lbspotify */,
+				E17B687C1E114B1C00F11DEE /* lbgithub */,
+				E15C4C541E11B3E7003A64FB /* lbmas */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E15884D91E11221A00F80FEE /* lbcocoapod */ = {
+		E15884E51E11223700F80FEE /* Launchbar */ = {
 			isa = PBXGroup;
 			children = (
-				E15884DA1E11221A00F80FEE /* main.swift */,
-				E15884F11E11246000F80FEE /* Cocoapods.swift */,
-			);
-			path = lbcocoapod;
-			sourceTree = "<group>";
-		};
-		E15884E51E11223700F80FEE /* lbshared */ = {
-			isa = PBXGroup;
-			children = (
-				E15884E61E11223700F80FEE /* lbshared.h */,
-				E15884E71E11223700F80FEE /* Info.plist */,
-				E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */,
+				E15C4C5F1E11B62E003A64FB /* Cocoapods.swift */,
+				E15C4C601E11B62E003A64FB /* Github.swift */,
+				E15C4C611E11B62E003A64FB /* main.swift */,
+				E15C4C621E11B62E003A64FB /* Mas.swift */,
 				E15884F51E11272E00F80FEE /* Response.swift */,
+				E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */,
+				E15C4C631E11B62E003A64FB /* Spotify.swift */,
 			);
+			name = Launchbar;
 			path = lbshared;
 			sourceTree = "<group>";
 		};
-		E17B685D1E11305C00F11DEE /* lbspotify */ = {
-			isa = PBXGroup;
-			children = (
-				E17B685E1E11305C00F11DEE /* main.swift */,
-				E17B68631E1130AF00F11DEE /* Spotify.swift */,
-			);
-			path = lbspotify;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		E15884E11E11223700F80FEE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E15884E81E11223700F80FEE /* lbshared.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E15884D71E11221A00F80FEE /* lbcocoapod */ = {
@@ -160,23 +176,22 @@
 			productReference = E15884D81E11221A00F80FEE /* lbcocoapod */;
 			productType = "com.apple.product-type.tool";
 		};
-		E15884E31E11223700F80FEE /* lbshared */ = {
+		E15C4C531E11B3E7003A64FB /* lbmas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E15884E91E11223700F80FEE /* Build configuration list for PBXNativeTarget "lbshared" */;
+			buildConfigurationList = E15C4C5A1E11B3E7003A64FB /* Build configuration list for PBXNativeTarget "lbmas" */;
 			buildPhases = (
-				E15884DF1E11223700F80FEE /* Sources */,
-				E15884E01E11223700F80FEE /* Frameworks */,
-				E15884E11E11223700F80FEE /* Headers */,
-				E15884E21E11223700F80FEE /* Resources */,
+				E15C4C501E11B3E7003A64FB /* Sources */,
+				E15C4C511E11B3E7003A64FB /* Frameworks */,
+				E15C4C521E11B3E7003A64FB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = lbshared;
-			productName = lbshared;
-			productReference = E15884E41E11223700F80FEE /* lbshared.framework */;
-			productType = "com.apple.product-type.framework";
+			name = lbmas;
+			productName = lbmas;
+			productReference = E15C4C541E11B3E7003A64FB /* lbmas */;
+			productType = "com.apple.product-type.tool";
 		};
 		E17B685B1E11305C00F11DEE /* lbspotify */ = {
 			isa = PBXNativeTarget;
@@ -195,6 +210,23 @@
 			productReference = E17B685C1E11305C00F11DEE /* lbspotify */;
 			productType = "com.apple.product-type.tool";
 		};
+		E17B687B1E114B1C00F11DEE /* lbgithub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B68801E114B1C00F11DEE /* Build configuration list for PBXNativeTarget "lbgithub" */;
+			buildPhases = (
+				E17B68781E114B1C00F11DEE /* Sources */,
+				E17B68791E114B1C00F11DEE /* Frameworks */,
+				E17B687A1E114B1C00F11DEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lbgithub;
+			productName = lbgithub;
+			productReference = E17B687C1E114B1C00F11DEE /* lbgithub */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,13 +242,17 @@
 						DevelopmentTeam = YE33ZK7Z99;
 						ProvisioningStyle = Automatic;
 					};
-					E15884E31E11223700F80FEE = {
+					E15C4C531E11B3E7003A64FB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YE33ZK7Z99;
-						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E17B685B1E11305C00F11DEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YE33ZK7Z99;
+						ProvisioningStyle = Automatic;
+					};
+					E17B687B1E114B1C00F11DEE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = YE33ZK7Z99;
 						ProvisioningStyle = Automatic;
@@ -236,40 +272,39 @@
 			projectRoot = "";
 			targets = (
 				E15884D71E11221A00F80FEE /* lbcocoapod */,
-				E15884E31E11223700F80FEE /* lbshared */,
 				E17B685B1E11305C00F11DEE /* lbspotify */,
+				E17B687B1E114B1C00F11DEE /* lbgithub */,
+				E15C4C531E11B3E7003A64FB /* lbmas */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		E15884E21E11223700F80FEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E15884D41E11221A00F80FEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15884F21E11246000F80FEE /* Cocoapods.swift in Sources */,
-				E15884DB1E11221A00F80FEE /* main.swift in Sources */,
 				E15884F41E11246A00F80FEE /* ServiceProtocol.swift in Sources */,
+				E15C4C801E11B66C003A64FB /* Mas.swift in Sources */,
+				E15C4C811E11B66C003A64FB /* Spotify.swift in Sources */,
+				E15C4C7F1E11B66C003A64FB /* main.swift in Sources */,
+				E15C4C7D1E11B66C003A64FB /* Cocoapods.swift in Sources */,
+				E15C4C7E1E11B66C003A64FB /* Github.swift in Sources */,
 				E15884F71E11272F00F80FEE /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E15884DF1E11223700F80FEE /* Sources */ = {
+		E15C4C501E11B3E7003A64FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15884F01E1123EE00F80FEE /* ServiceProtocol.swift in Sources */,
-				E15884F61E11272E00F80FEE /* Response.swift in Sources */,
+				E15C4C5D1E11B555003A64FB /* Response.swift in Sources */,
+				E15C4C6C1E11B66A003A64FB /* Mas.swift in Sources */,
+				E15C4C6D1E11B66A003A64FB /* Spotify.swift in Sources */,
+				E15C4C6B1E11B66A003A64FB /* main.swift in Sources */,
+				E15C4C691E11B66A003A64FB /* Cocoapods.swift in Sources */,
+				E15C4C6A1E11B66A003A64FB /* Github.swift in Sources */,
+				E15C4C5E1E11B557003A64FB /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +313,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17B68661E1130B600F11DEE /* Response.swift in Sources */,
+				E15C4C7B1E11B66B003A64FB /* Mas.swift in Sources */,
+				E15C4C7C1E11B66B003A64FB /* Spotify.swift in Sources */,
+				E15C4C7A1E11B66B003A64FB /* main.swift in Sources */,
+				E15C4C781E11B66B003A64FB /* Cocoapods.swift in Sources */,
+				E15C4C791E11B66B003A64FB /* Github.swift in Sources */,
 				E17B68651E1130B600F11DEE /* ServiceProtocol.swift in Sources */,
-				E17B68641E1130AF00F11DEE /* Spotify.swift in Sources */,
-				E17B685F1E11305C00F11DEE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B68781E114B1C00F11DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B68861E114BB000F11DEE /* Response.swift in Sources */,
+				E15C4C711E11B66B003A64FB /* Mas.swift in Sources */,
+				E15C4C721E11B66B003A64FB /* Spotify.swift in Sources */,
+				E15C4C701E11B66B003A64FB /* main.swift in Sources */,
+				E15C4C6E1E11B66B003A64FB /* Cocoapods.swift in Sources */,
+				E15C4C6F1E11B66B003A64FB /* Github.swift in Sources */,
+				E17B68851E114BB000F11DEE /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBCOCOAPODS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -388,61 +441,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBCOCOAPODS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		E15884EA1E11223700F80FEE /* Debug */ = {
+		E15C4C581E11B3E7003A64FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = lbshared/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obrhoff.lbshared;
+				OTHER_SWIFT_FLAGS = "-DLBMAS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E15884EB1E11223700F80FEE /* Release */ = {
+		E15C4C591E11B3E7003A64FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = lbshared/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.obrhoff.lbshared;
+				OTHER_SWIFT_FLAGS = "-DLBMAS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -450,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBSPOTIFY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -459,6 +481,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBSPOTIFY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E17B68811E114B1C00F11DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBGITHUB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E17B68821E114B1C00F11DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				OTHER_SWIFT_FLAGS = "-DLBGITHUB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -485,14 +528,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E15884E91E11223700F80FEE /* Build configuration list for PBXNativeTarget "lbshared" */ = {
+		E15C4C5A1E11B3E7003A64FB /* Build configuration list for PBXNativeTarget "lbmas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E15884EA1E11223700F80FEE /* Debug */,
-				E15884EB1E11223700F80FEE /* Release */,
+				E15C4C581E11B3E7003A64FB /* Debug */,
+				E15C4C591E11B3E7003A64FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		E17B68621E11305C00F11DEE /* Build configuration list for PBXNativeTarget "lbspotify" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +543,16 @@
 				E17B68611E11305C00F11DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B68801E114B1C00F11DEE /* Build configuration list for PBXNativeTarget "lbgithub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17B68811E114B1C00F11DEE /* Debug */,
+				E17B68821E114B1C00F11DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
