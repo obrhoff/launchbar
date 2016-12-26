@@ -18,18 +18,16 @@
 		<dict>
 			<key>LBLiveFeedbackEnabled</key>
 			<true/>
-			<key>LBScriptName</key>
-			<string>default.py</string>
-			<key>LBRunInBackground</key>
+			<key>LBReturnsResult</key>
 			<true/>
+			<key>LBScriptName</key>
+			<string>lbcocoapod</string>
 			<key>LBRequiresArgument</key>
 			<true/>
-			<key>LBAcceptedArgumentTypes</key>
-			<array>
-				<string>string</string>
-			</array>
-			<key>LBReturnsResult</key>
-			<false/>
+			<key>LBBackgroundKillEnabled</key>
+			<true/>
+			<key>LBRunInBackground</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>LBDescription</key>
@@ -39,7 +37,7 @@
 		<key>LBAuthor</key>
 		<string>Dennis Oberhoff</string>
 		<key>LBTwitter</key>
-		<string>@launchbar</string>
+		<string>@docterd</string>
 	</dict>
 </dict>
 </plist>

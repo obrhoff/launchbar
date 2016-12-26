@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15884DB1E11221A00F80FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884DA1E11221A00F80FEE /* main.swift */; };
+		E15884E81E11223700F80FEE /* lbshared.h in Headers */ = {isa = PBXBuildFile; fileRef = E15884E61E11223700F80FEE /* lbshared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15884F01E1123EE00F80FEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
+		E15884F21E11246000F80FEE /* Cocoapods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F11E11246000F80FEE /* Cocoapods.swift */; };
+		E15884F41E11246A00F80FEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
+		E15884F61E11272E00F80FEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
+		E15884F71E11272F00F80FEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
+		E17B685F1E11305C00F11DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17B685E1E11305C00F11DEE /* main.swift */; };
+		E17B68641E1130AF00F11DEE /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17B68631E1130AF00F11DEE /* Spotify.swift */; };
+		E17B68651E1130B600F11DEE /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */; };
+		E17B68661E1130B600F11DEE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15884F51E11272E00F80FEE /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E15884D61E11221A00F80FEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E17B685A1E11305C00F11DEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E15884D81E11221A00F80FEE /* lbcocoapod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbcocoapod; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15884DA1E11221A00F80FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E15884E41E11223700F80FEE /* lbshared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = lbshared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15884E61E11223700F80FEE /* lbshared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lbshared.h; sourceTree = "<group>"; };
+		E15884E71E11223700F80FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		E15884F11E11246000F80FEE /* Cocoapods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocoapods.swift; sourceTree = "<group>"; };
+		E15884F51E11272E00F80FEE /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		E17B685C1E11305C00F11DEE /* lbspotify */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lbspotify; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17B685E1E11305C00F11DEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E17B68631E1130AF00F11DEE /* Spotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15884D51E11221A00F80FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15884E01E11223700F80FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B68591E11305C00F11DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15884C11E1121E900F80FEE = {
+			isa = PBXGroup;
+			children = (
+				E15884D91E11221A00F80FEE /* lbcocoapod */,
+				E17B685D1E11305C00F11DEE /* lbspotify */,
+				E15884E51E11223700F80FEE /* lbshared */,
+				E15884CB1E1121E900F80FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15884CB1E1121E900F80FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15884D81E11221A00F80FEE /* lbcocoapod */,
+				E15884E41E11223700F80FEE /* lbshared.framework */,
+				E17B685C1E11305C00F11DEE /* lbspotify */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15884D91E11221A00F80FEE /* lbcocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				E15884DA1E11221A00F80FEE /* main.swift */,
+				E15884F11E11246000F80FEE /* Cocoapods.swift */,
+			);
+			path = lbcocoapod;
+			sourceTree = "<group>";
+		};
+		E15884E51E11223700F80FEE /* lbshared */ = {
+			isa = PBXGroup;
+			children = (
+				E15884E61E11223700F80FEE /* lbshared.h */,
+				E15884E71E11223700F80FEE /* Info.plist */,
+				E15884EF1E1123EE00F80FEE /* ServiceProtocol.swift */,
+				E15884F51E11272E00F80FEE /* Response.swift */,
+			);
+			path = lbshared;
+			sourceTree = "<group>";
+		};
+		E17B685D1E11305C00F11DEE /* lbspotify */ = {
+			isa = PBXGroup;
+			children = (
+				E17B685E1E11305C00F11DEE /* main.swift */,
+				E17B68631E1130AF00F11DEE /* Spotify.swift */,
+			);
+			path = lbspotify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E15884E11E11223700F80FEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15884E81E11223700F80FEE /* lbshared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E15884D71E11221A00F80FEE /* lbcocoapod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15884DC1E11221A00F80FEE /* Build configuration list for PBXNativeTarget "lbcocoapod" */;
+			buildPhases = (
+				E15884D41E11221A00F80FEE /* Sources */,
+				E15884D51E11221A00F80FEE /* Frameworks */,
+				E15884D61E11221A00F80FEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lbcocoapod;
+			productName = lbcocoapod;
+			productReference = E15884D81E11221A00F80FEE /* lbcocoapod */;
+			productType = "com.apple.product-type.tool";
+		};
+		E15884E31E11223700F80FEE /* lbshared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15884E91E11223700F80FEE /* Build configuration list for PBXNativeTarget "lbshared" */;
+			buildPhases = (
+				E15884DF1E11223700F80FEE /* Sources */,
+				E15884E01E11223700F80FEE /* Frameworks */,
+				E15884E11E11223700F80FEE /* Headers */,
+				E15884E21E11223700F80FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lbshared;
+			productName = lbshared;
+			productReference = E15884E41E11223700F80FEE /* lbshared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E17B685B1E11305C00F11DEE /* lbspotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B68621E11305C00F11DEE /* Build configuration list for PBXNativeTarget "lbspotify" */;
+			buildPhases = (
+				E17B68581E11305C00F11DEE /* Sources */,
+				E17B68591E11305C00F11DEE /* Frameworks */,
+				E17B685A1E11305C00F11DEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lbspotify;
+			productName = lbspotify;
+			productReference = E17B685C1E11305C00F11DEE /* lbspotify */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15884C21E1121E900F80FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dennis Oberhoff";
+				TargetAttributes = {
+					E15884D71E11221A00F80FEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YE33ZK7Z99;
+						ProvisioningStyle = Automatic;
+					};
+					E15884E31E11223700F80FEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YE33ZK7Z99;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					E17B685B1E11305C00F11DEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YE33ZK7Z99;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E15884C51E1121E900F80FEE /* Build configuration list for PBXProject "LaunchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E15884C11E1121E900F80FEE;
+			productRefGroup = E15884CB1E1121E900F80FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15884D71E11221A00F80FEE /* lbcocoapod */,
+				E15884E31E11223700F80FEE /* lbshared */,
+				E17B685B1E11305C00F11DEE /* lbspotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15884E21E11223700F80FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15884D41E11221A00F80FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15884F21E11246000F80FEE /* Cocoapods.swift in Sources */,
+				E15884DB1E11221A00F80FEE /* main.swift in Sources */,
+				E15884F41E11246A00F80FEE /* ServiceProtocol.swift in Sources */,
+				E15884F71E11272F00F80FEE /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15884DF1E11223700F80FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15884F01E1123EE00F80FEE /* ServiceProtocol.swift in Sources */,
+				E15884F61E11272E00F80FEE /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17B68581E11305C00F11DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17B68661E1130B600F11DEE /* Response.swift in Sources */,
+				E17B68651E1130B600F11DEE /* ServiceProtocol.swift in Sources */,
+				E17B68641E1130AF00F11DEE /* Spotify.swift in Sources */,
+				E17B685F1E11305C00F11DEE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E15884CF1E1121E900F80FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15884D01E1121E900F80FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E15884DD1E11221A00F80FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E15884DE1E11221A00F80FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E15884EA1E11223700F80FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = lbshared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obrhoff.lbshared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E15884EB1E11223700F80FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = lbshared/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.obrhoff.lbshared;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E17B68601E11305C00F11DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E17B68611E11305C00F11DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YE33ZK7Z99;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15884C51E1121E900F80FEE /* Build configuration list for PBXProject "LaunchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15884CF1E1121E900F80FEE /* Debug */,
+				E15884D01E1121E900F80FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15884DC1E11221A00F80FEE /* Build configuration list for PBXNativeTarget "lbcocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15884DD1E11221A00F80FEE /* Debug */,
+				E15884DE1E11221A00F80FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15884E91E11223700F80FEE /* Build configuration list for PBXNativeTarget "lbshared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15884EA1E11223700F80FEE /* Debug */,
+				E15884EB1E11223700F80FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B68621E11305C00F11DEE /* Build configuration list for PBXNativeTarget "lbspotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17B68601E11305C00F11DEE /* Debug */,
+				E17B68611E11305C00F11DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15884C21E1121E900F80FEE /* Project object */;
+}
